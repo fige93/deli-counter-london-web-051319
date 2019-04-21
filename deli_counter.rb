@@ -15,4 +15,7 @@ def line(currentLine)
   end
 end
 
-def take_a_number
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  puts "#{name} #{katz_deli.length}"
+end
