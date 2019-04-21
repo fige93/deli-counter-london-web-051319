@@ -26,3 +26,5 @@ def now_serving(currentLine)
     puts "There is nobody waiting to be served!"
   else
     puts "#{currentLine.shift}"
+  end
+end
