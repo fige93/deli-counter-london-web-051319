@@ -14,3 +14,5 @@ def line(currentLine)
     puts lineMessage
   end
 end
+
+def take_a_number
